@@ -10,12 +10,12 @@ module.exports.run = async (client, message, msg, args) => {
   .setTitle("Bot Information")
     .setColor("RANDOM")
     .setDescription("Shows the bot's information")
-    .addField("Developer/Owner:","Itz_Someone!#5148")
-    .addField("Date Released:","N/A (still to come!)")
+    .addField("Developer/Owner:","Coltenf#5898")
+    .addField("Date Released:","4/15/21")
     .addField("Language Created in:","Was Created in discord.js")
     .addField("Bot is currently in:", client.guilds.size + " Servers!")
     .addField("Members that are currenlty using the bot:", client.users.size + " Members" )
-    .setFooter("Just a Testing bot that is all!")
+    .setFooter("Discord moderation bot")
     message.channel.send(embed)
   }
 
